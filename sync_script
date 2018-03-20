@@ -8,7 +8,7 @@ time=`date '+%Y-%m-%d %H:%M:%S'`;
 
 git checkout master
 
-wget -r -np  https://438560969.wixsite.com/mysite
+wget --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows  --no-parent https://438560969.wixsite.com/mysite
 
 git add .
 
